@@ -130,9 +130,6 @@ class ParticleFilter:
     def get_map(self, data):
 
         self.map = data
-
-        self.occupancy_field = OccupancyField(data)
-
     
 
     def initialize_particle_cloud(self):
